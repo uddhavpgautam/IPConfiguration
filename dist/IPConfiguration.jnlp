@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="IPConfiguration.jnlp">
+  <information>
+    <title>IPConfiguration</title>
+    <vendor>Administrator</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="IPConfiguration.jar" size="126252" download="eager" />
+    <jar href="lib\beansbinding-1.2.1.jar" size="632160" download="eager" />
+  </resources>
+<security>
+  <all-permissions/>
+</security>
+  <application-desc main-class="IPConfiguration.TopFrame"  name="IPConfiguration" >
+  </application-desc>
+  <update check="always"/>
+</jnlp>
